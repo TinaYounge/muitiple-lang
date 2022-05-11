@@ -1,0 +1,484 @@
+{
+    "tracking": {
+      "ggi": 83847,
+      "proto_ver": "{VERSION}",
+      "entity_type": "4523:83847:{VERSION}:HTML5:Ads",
+      "entity_id": "Survey"
+    },
+    "cookies": {
+      "gtmId": "GTM-T99T3D8"
+    },
+    "cheat": {
+      "enable": false
+    },
+    "links": {
+      "oxford": "https://applaydu.kinder.com/static/public/Oxford/index.html"
+    },
+    "pages": [
+          {
+              "name": "page1",
+              "elements": [
+                  {
+                    "type": "text",
+                    "name": "Q1",
+                    "title": "In which year and month was your child born?",
+                    "inputType": "month",
+                                        "placeHolder": "Year and Month"
+  
+                  },
+                  {
+                    "type": "radiogroup",
+                    "name": "Q2",
+                    "title": "What is your child’s gender?",
+                    "choices": [
+                      {
+                        "value": "item1",
+                        "text": "Male"
+                      },
+                      {
+                        "value": "item2",
+                        "text": "Female"
+                      }
+                    ],
+                    "hasOther": true,
+                    "hasNone": true,
+                    "noneText": "Prefer not to say",
+                    "otherText": "Other"
+                  },
+                  {
+                    "type": "checkbox",
+                    "name": "Q3",
+                    "title": "Which languages does your child hear and/or use, including at home and in other places (e.g., school)? Choose all the languages which apply.",
+                    "choices": [
+                      {
+                        "value": "item1",
+                        "text": "English"
+                      },
+                      {
+                        "value": "item2",
+                        "text": "Afrikaans"
+                      },
+                      {
+                        "value": "item3",
+                        "text": "Amharic"
+                      },
+                      {
+                        "value": "item4",
+                        "text": "Bulgarian"
+                      },
+                      {
+                        "value": "item5",
+                        "text": "Catalan"
+                      },
+                      {
+                        "value": "item6",
+                        "text": "Chinese"
+                      },
+                      {
+                        "value": "item7",
+                        "text": "Croatian"
+                      },
+                      {
+                        "value": "item8",
+                        "text": "Czech"
+                      },
+                      {
+                        "value": "item9",
+                        "text": "Danish"
+                      },
+                      {
+                        "value": "item10",
+                        "text": "Dutch"
+                      },
+                      {
+                        "value": "item11",
+                        "text": "Estonian"
+                      },
+                      {
+                        "value": "item12",
+                        "text": "Filipino"
+                      },
+                      {
+                        "value": "item13",
+                        "text": "Finnish"
+                      },
+                      {
+                        "value": "item14",
+                        "text": "French"
+                      },
+                      {
+                        "value": "item15",
+                        "text": "German"
+                      },
+                      {
+                        "value": "item16",
+                        "text": "Greek"
+                      },
+                      {
+                        "value": "item17",
+                        "text": "Hebrew"
+                      },
+                      {
+                        "value": "item18",
+                        "text": "Hindi"
+                      },
+                      {
+                        "value": "item19",
+                        "text": "Hungarian"
+                      },
+                      {
+                        "value": "item20",
+                        "text": "Icelandic"
+                      },
+                      {
+                        "value": "item21",
+                        "text": "Indonesian"
+                      },
+                      {
+                        "value": "item22",
+                        "text": "Italian"
+                      },
+                      {
+                        "value": "item23",
+                        "text": "Japanese"
+                      },
+                      {
+                        "value": "item24",
+                        "text": "Korean"
+                      },
+                      {
+                        "value": "item25",
+                        "text": "Latvian"
+                      },
+                      {
+                        "value": "item26",
+                        "text": "Lithuanian"
+                      },
+                      {
+                        "value": "item27",
+                        "text": "Malay"
+                      },
+                      {
+                        "value": "item28",
+                        "text": "Norwegian"
+                      },
+                      {
+                        "value": "item29",
+                        "text": "Polish"
+                      },
+                      {
+                        "value": "item30",
+                        "text": "Portuguese"
+                      },
+                      {
+                        "value": "item31",
+                        "text": "Romanian"
+                      },
+                      {
+                        "value": "item32",
+                        "text": "Russian"
+                      },
+                      {
+                        "value": "item33",
+                        "text": "Serbian"
+                      },
+                      {
+                        "value": "item34",
+                        "text": "Slovak"
+                      },
+                      {
+                        "value": "item35",
+                        "text": "Slovenian"
+                      },
+                      {
+                        "value": "item36",
+                        "text": "Spanish"
+                      },
+                      {
+                        "value": "item37",
+                        "text": "Swahili"
+                      },
+                      {
+                        "value": "item38",
+                        "text": "Swedish"
+                      },
+                      {
+                        "value": "item39",
+                        "text": "Thai"
+                      },
+                      {
+                        "value": "item40",
+                        "text": "Turkish"
+                      },
+                      {
+                        "value": "item41",
+                        "text": "Ukrainian"
+                      },
+                      {
+                        "value": "item42",
+                        "text": "Vietnamese"
+                      },
+                      {
+                        "value": "item43",
+                        "text": "Zulu"
+                      }
+                    ],
+                    "hasOther": true,
+                    "hasNone": true,
+                    "noneText": "Prefer not to say",
+                    "otherText": "Other"
+                  },
+                  {
+                    "type": "radiogroup",
+                    "name": "Q3a",
+                    "visibleIf": "{Q3} notmulti",
+                    "title": "How are these different languages used by your child?",
+                    "choices": [
+                      {
+                        "value": "item1",
+                        "text": "One language used most of the time"
+                      },
+                      {
+                        "value": "item2",
+                        "text": "Equal use of different languages"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "radiogroup",
+                    "name": "Q3b",
+                    "visibleIf": "{Q3a}='item1'",
+                    "title": "What is the language used most of the time?",
+                    "choicesFromQuestion": "Q3",
+                    "choicesFromQuestionMode": "selected",
+                    "hasNone": true,
+                    "noneText": "Prefer not to say"
+                  },
+                  {
+                    "type": "checkbox",
+                    "name": "Q4a",
+                    "visibleIf": "{Q3} noSay",
+                    "title": "Which languages are your child's first/native languages (i.e., they have heard and/or used consistently since birth)?",
+                     "choices": [
+                      {
+                        "value": "item1",
+                        "text": "English"
+                      },
+                      {
+                        "value": "item2",
+                        "text": "Afrikaans"
+                      },
+                      {
+                        "value": "item3",
+                        "text": "Amharic"
+                      },
+                      {
+                        "value": "item4",
+                        "text": "Bulgarian"
+                      },
+                      {
+                        "value": "item5",
+                        "text": "Catalan"
+                      },
+                      {
+                        "value": "item6",
+                        "text": "Chinese"
+                      },
+                      {
+                        "value": "item7",
+                        "text": "Croatian"
+                      },
+                      {
+                        "value": "item8",
+                        "text": "Czech"
+                      },
+                      {
+                        "value": "item9",
+                        "text": "Danish"
+                      },
+                      {
+                        "value": "item10",
+                        "text": "Dutch"
+                      },
+                      {
+                        "value": "item11",
+                        "text": "Estonian"
+                      },
+                      {
+                        "value": "item12",
+                        "text": "Filipino"
+                      },
+                      {
+                        "value": "item13",
+                        "text": "Finnish"
+                      },
+                      {
+                        "value": "item14",
+                        "text": "French"
+                      },
+                      {
+                        "value": "item15",
+                        "text": "German"
+                      },
+                      {
+                        "value": "item16",
+                        "text": "Greek"
+                      },
+                      {
+                        "value": "item17",
+                        "text": "Hebrew"
+                      },
+                      {
+                        "value": "item18",
+                        "text": "Hindi"
+                      },
+                      {
+                        "value": "item19",
+                        "text": "Hungarian"
+                      },
+                      {
+                        "value": "item20",
+                        "text": "Icelandic"
+                      },
+                      {
+                        "value": "item21",
+                        "text": "Indonesian"
+                      },
+                      {
+                        "value": "item22",
+                        "text": "Italian"
+                      },
+                      {
+                        "value": "item23",
+                        "text": "Japanese"
+                      },
+                      {
+                        "value": "item24",
+                        "text": "Korean"
+                      },
+                      {
+                        "value": "item25",
+                        "text": "Latvian"
+                      },
+                      {
+                        "value": "item26",
+                        "text": "Lithuanian"
+                      },
+                      {
+                        "value": "item27",
+                        "text": "Malay"
+                      },
+                      {
+                        "value": "item28",
+                        "text": "Norwegian"
+                      },
+                      {
+                        "value": "item29",
+                        "text": "Polish"
+                      },
+                      {
+                        "value": "item30",
+                        "text": "Portuguese"
+                      },
+                      {
+                        "value": "item31",
+                        "text": "Romanian"
+                      },
+                      {
+                        "value": "item32",
+                        "text": "Russian"
+                      },
+                      {
+                        "value": "item33",
+                        "text": "Serbian"
+                      },
+                      {
+                        "value": "item34",
+                        "text": "Slovak"
+                      },
+                      {
+                        "value": "item35",
+                        "text": "Slovenian"
+                      },
+                      {
+                        "value": "item36",
+                        "text": "Spanish"
+                      },
+                      {
+                        "value": "item37",
+                        "text": "Swahili"
+                      },
+                      {
+                        "value": "item38",
+                        "text": "Swedish"
+                      },
+                      {
+                        "value": "item39",
+                        "text": "Thai"
+                      },
+                      {
+                        "value": "item40",
+                        "text": "Turkish"
+                      },
+                      {
+                        "value": "item41",
+                        "text": "Ukrainian"
+                      },
+                      {
+                        "value": "item42",
+                        "text": "Vietnamese"
+                      },
+                      {
+                        "value": "item43",
+                        "text": "Zulu"
+                      }
+                    ],
+                    "hasOther": true,
+                    "hasNone": true,
+                    "noneText": "Prefer not to say",
+                    "otherText": "Other"
+                  },
+                  {
+                    "type": "checkbox",
+                    "name": "Q4b",
+                    "visibleIf": "{Q3}<>'none'",
+                    "title": "Which languages are your child's first/native languages (i.e., they have heard and/or used consistently since birth)?",
+                    "choicesFromQuestion": "Q3",
+                    "choicesFromQuestionMode": "selected",
+                    "hasNone": true,
+                    "noneText": "Prefer not to say"
+                  },
+                  
+                  {
+                    "type": "checkbox",
+                    "name": "Q5",
+                    "title": "Which of the following does your child currently attend? Please tick all that apply:",
+                    "choices": [
+                      {
+                        "value": "item1",
+                        "text": "A preschool, nursery or childcare"
+                      },
+                      {
+                        "value": "item2",
+                        "text": "School"
+                      },
+                      {
+                        "value": "item3",
+                        "text": "After school club"
+                      }
+                    ], 
+                    "hasNone": true,
+                    "noneText": "None of the above"
+              
+                  },
+                  {
+                    "type": "text",
+                    "name": "Q6",
+                    "title": "At what age did your child start formal education (e.g., nursery or school) (in years) ?",
+                    "inputType": "number",
+                      "placeHolder": "Age in years"
+                  }
+              ]
+          }
+      ]
+  }
